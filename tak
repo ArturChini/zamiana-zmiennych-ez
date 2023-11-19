@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<?php
+$zmiennax1 = 10;
+$zmiennax2 = 12;
+print($zmiennax1);
+print("<br>".$zmiennax2);
+print("<br>".$zmiennax1 = $zmiennax1 - $zmiennax2);
+print("<br>".$zmiennax2 = $zmiennax2 + $zmiennax1);
+print("<br>".$zmiennax1 = $zmiennax2 - $zmiennax1);
+?>
+//a = a - b; b = b + a; a = b - a
+
+</body>
+</html>
